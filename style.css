@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100%;
+}
+
+header {
+    background-color: #008080;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('https://t4.ftcdn.net/jpg/06/46/89/93/360_F_646899398_Ytdesvb5psPcBUeD0HtzBUVh3OuOgXPI.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height:64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 25px;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #eef;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.tourism{
+    height:88vh;
+}
+
+.tourism .tourism-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.tourism .destination {
+    text-align: center;
+    width: 30%;
+}
+
+.tourism .destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.culture{
+    height : 89vh
+}
+
+.culture-content {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.culture h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
